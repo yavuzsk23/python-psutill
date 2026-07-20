@@ -43,41 +43,6 @@ This project is licensed under the MIT License.
 
 ---
 
-## 🇹🇷 Türkçe
-
-### Özellikler
-- Gerçek zamanlı CPU kullanım takibi
-- Gerçek zamanlı RAM (bellek) kullanım takibi
-- Gerçek zamanlı Disk kullanım takibi
-- Kullanım %80'i geçtiğinde otomatik kırmızı uyarı rengi
-- Her saniye güncelleme
-- Sade ve modern karanlık temalı arayüz
-
-### Gereksinimler
-- Python 3.10 veya üzeri
-- `customtkinter`
-- `psutil`
-
-### Kurulum
-```bash
-pip install customtkinter psutil
-```
-
-### Kullanım
-```bash
-python system_monitor.py
-```
-
-Uygulama penceresi açılır açılmaz canlı sistem verilerini göstermeye başlar. Herhangi bir ek ayara gerek yoktur.
-
-### Nasıl çalışır?
-Uygulama, `psutil.cpu_percent()`, `psutil.virtual_memory()` ve `psutil.disk_usage()` fonksiyonlarını kullanarak sistem verilerini her saniye CustomTkinter'ın `after()` mekanizmasıyla tekrar tekrar okur. Her metrik %80 eşiğini geçtiğinde ilgili etiketin rengi otomatik olarak kırmızıya döner, böylece yüksek kaynak kullanımı bir bakışta fark edilir.
-
-### Lisans
-Bu proje MIT Lisansı ile lisanslanmıştır.
-
----
-
 ## 🇩🇪 Deutsch
 
 ### Funktionen
@@ -113,8 +78,35 @@ Dieses Projekt steht unter der MIT-Lizenz.
 
 ---
 
-## Screenshot
-*(Add a screenshot of the running application here)*
+## 🇹🇷 Türkçe
 
-## Author
-**Yavuz Selim** — Aspiring Python Developer, working toward an IT Ausbildung in Germany.
+### Özellikler
+- Gerçek zamanlı CPU kullanım takibi
+- Gerçek zamanlı RAM (bellek) kullanım takibi
+- Gerçek zamanlı Disk kullanım takibi
+- Kullanım %80'i geçtiğinde otomatik kırmızı uyarı rengi
+- Her saniye güncelleme
+- Sade ve modern karanlık temalı arayüz
+
+### Gereksinimler
+- Python 3.10 veya üzeri
+- `customtkinter`
+- `psutil`
+
+### Kurulum
+```bash
+pip install customtkinter psutil
+```
+
+### Kullanım
+```bash
+python system_monitor.py
+```
+
+Uygulama penceresi açılır açılmaz canlı sistem verilerini göstermeye başlar. Herhangi bir ek ayara gerek yoktur.
+
+### Nasıl çalışır?
+Uygulama, `psutil.cpu_percent()`, `psutil.virtual_memory()` ve `psutil.disk_usage()` fonksiyonlarını kullanarak sistem verilerini her saniye CustomTkinter'ın `after()` mekanizmasıyla tekrar tekrar okur. Her metrik %80 eşiğini geçtiğinde ilgili etiketin rengi otomatik olarak kırmızıya döner, böylece yüksek kaynak kullanımı bir bakışta fark edilir.
+
+### Lisans
+Bu proje MIT Lisansı ile lisanslanmıştır.
