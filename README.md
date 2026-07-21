@@ -38,8 +38,6 @@ The application window will open and immediately start displaying live system st
 ### How it works
 The app uses `psutil.cpu_percent()`, `psutil.virtual_memory()`, and `psutil.disk_usage()` to read system metrics every second via a recurring `after()` callback in CustomTkinter. Each metric's label color switches to red automatically once it passes the 80% threshold, making resource spikes easy to spot at a glance.
 
-### License
-This project is licensed under the MIT License.
 
 ---
 
@@ -73,9 +71,6 @@ Das Anwendungsfenster öffnet sich und zeigt sofort die aktuellen Systemwerte an
 ### Funktionsweise
 Die Anwendung liest die Systemwerte mithilfe von `psutil.cpu_percent()`, `psutil.virtual_memory()` und `psutil.disk_usage()` jede Sekunde über einen wiederkehrenden `after()`-Callback in CustomTkinter aus. Sobald ein Wert die 80 %-Schwelle überschreitet, wechselt die Farbe des jeweiligen Labels automatisch auf Rot, sodass hohe Auslastungen sofort erkennbar sind.
 
-### Lizenz
-Dieses Projekt steht unter der MIT-Lizenz.
-
 ---
 
 ## 🇹🇷 Türkçe
@@ -107,6 +102,3 @@ Uygulama penceresi açılır açılmaz canlı sistem verilerini göstermeye baş
 
 ### Nasıl çalışır?
 Uygulama, `psutil.cpu_percent()`, `psutil.virtual_memory()` ve `psutil.disk_usage()` fonksiyonlarını kullanarak sistem verilerini her saniye CustomTkinter'ın `after()` mekanizmasıyla tekrar tekrar okur. Her metrik %80 eşiğini geçtiğinde ilgili etiketin rengi otomatik olarak kırmızıya döner, böylece yüksek kaynak kullanımı bir bakışta fark edilir.
-
-### Lisans
-Bu proje MIT Lisansı ile lisanslanmıştır.
