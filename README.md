@@ -3,7 +3,6 @@
 A lightweight desktop application built with **CustomTkinter** and **psutil** that displays real-time CPU, RAM, and Disk usage in a clean, dark-themed interface. Usage values turn red when they exceed 80%, giving an instant visual warning of high system load.
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
 
 ---
